@@ -1,0 +1,159 @@
+# Translation of WordPress.com - Themes - Revelar in Norwegian (Nynorsk)
+# This file is distributed under the same license as the WordPress.com - Themes - Revelar package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-04-15 03:11:50+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Language: nn_NO\n"
+"Project-Id-Version: WordPress.com - Themes - Revelar\n"
+
+#: template-parts/content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Det ser ut til at me ikkje finn det du ser etter. Kanskje eit søk kan hjelpe."
+
+#: template-parts/content-video.php:8
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Les meir <span class=\"meta-nav\">&rarr;</span>"
+
+#: template-parts/content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Klar for å publisere det fyrste innlegget ditt? <a href=\"%1$s\">Kom i gang her</a>."
+
+#: template-parts/content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Beklagar, vi fann ingenting som passa med søket ditt. Prøv igjen med andre søkeord."
+
+#: template-parts/content-gallery.php:33 template-parts/content-page.php:18
+#: template-parts/content-video.php:43 template-parts/content.php:38
+msgid "Pages:"
+msgstr "Sider:"
+
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr "Ingenting funne"
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:102 template-parts/content.php:31
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Les meir av %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:156
+msgid "All %s posts"
+msgstr "Alle %s innlegg"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Søkjeresultat for: %s"
+
+#: inc/template-tags.php:87 template-parts/content-page.php:25
+msgid "Edit"
+msgstr "Rediger"
+
+#: inc/template-tags.php:83
+msgid "1 Comment"
+msgstr "1 kommentar"
+
+#: inc/template-tags.php:83
+msgid "% Comments"
+msgstr "% kommentarar"
+
+#: inc/template-tags.php:71
+msgid "Posted in %1$s"
+msgstr "Posta under %1$s"
+
+#: inc/template-tags.php:77
+msgid "Tagged %1$s"
+msgstr "Merkte %1$s"
+
+#: inc/template-tags.php:83
+msgid "Leave a comment"
+msgstr "Kommenter innlegget"
+
+#: header.php:41
+msgid "Menu"
+msgstr "Meny"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:69 inc/template-tags.php:75
+msgid ", "
+msgstr ", "
+
+#. Translators: If there are characters in your language that are not
+#. * supported by Open Sans, translate this to 'off'. Do not translate
+#. * into your own language.
+#: functions.php:160
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr "på"
+
+#: header.php:22
+msgid "Skip to content"
+msgstr "Gå til innhald"
+
+#. Translators: If there are characters in your language that are not
+#. * supported by Bitter, translate this to 'off'. Do not translate into your
+#. * own language.
+#: functions.php:166
+msgctxt "Merriweather font: on or off"
+msgid "on"
+msgstr "på"
+
+#: footer.php:17
+msgid "Theme: %1$s by %2$s"
+msgstr "Tema: %1$s av %2$s"
+
+#: functions.php:38
+msgid "Primary Menu"
+msgstr "Primærmeny"
+
+#: footer.php:15
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: footer.php:15
+msgid "Proudly powered by %s"
+msgstr "Stolt driven av %s"
+
+#: comments.php:43 comments.php:65
+msgid "Newer Comments"
+msgstr "Nyare kommentarar"
+
+#: comments.php:77
+msgid "Comments are closed."
+msgstr "Kommentarfeltet er stengt."
+
+#: comments.php:39 comments.php:61
+msgid "Comment navigation"
+msgstr "Kommentarnavigasjon"
+
+#: comments.php:42 comments.php:64
+msgid "Older Comments"
+msgstr "Eldre kommentarar"
+
+#: 404.php:29
+msgid "Most Used Categories"
+msgstr "Mest brukte kategoriar"
+
+#. translators: %1$s: smiley
+#: 404.php:46
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Du kan kanskje sjå etter det i månadsarkivet. %1$s"
+
+#: comments.php:30
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Ein tanke på &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s tankar på &ldquo;%2$s&rdquo;"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Det ser ut til at ingenting vart funne her. Kanskje du kan prøve ei av lenkene nedanfor eller eit søk?"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oops! Kan ikkje finne den sida."

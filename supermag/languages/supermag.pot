@@ -1,0 +1,872 @@
+# Copyright (C) 2016 the Acme Themes
+# This file is distributed under the GNU General Public License v2 or later.
+
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: SuperMag\n"
+"POT-Creation-Date: 2016-12-05 21:22+0545\n"
+"PO-Revision-Date: 2016-12-05 21:22+0545\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:22
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: acmethemes/core.php:51
+msgid "Primary Menu"
+msgstr ""
+
+#: acmethemes/core/template-tags.php:29
+#, php-format
+msgctxt "post date"
+msgid "%s"
+msgstr ""
+
+#: acmethemes/core/template-tags.php:34
+#, php-format
+msgctxt "post author"
+msgid "%s"
+msgstr ""
+
+#: acmethemes/core/template-tags.php:51 acmethemes/core/template-tags.php:57
+msgid ", "
+msgstr ""
+
+#: acmethemes/core/template-tags.php:53 acmethemes/core/template-tags.php:59
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: acmethemes/core/template-tags.php:65
+msgid "Leave a comment"
+msgstr ""
+
+#: acmethemes/core/template-tags.php:65
+msgid "1 Comment"
+msgstr ""
+
+#: acmethemes/core/template-tags.php:65
+msgid "% Comments"
+msgstr ""
+
+#: acmethemes/core/template-tags.php:72 template-parts/content-page.php:33
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: acmethemes/customizer/custom-controls.php:37
+#: acmethemes/customizer/custom-controls.php:98
+msgid "Select"
+msgstr ""
+
+#: acmethemes/customizer/customizer-core.php:14
+msgid "Logo Only ( First Select Logo Above )"
+msgstr ""
+
+#: acmethemes/customizer/customizer-core.php:15
+msgid "Site Title Only"
+msgstr ""
+
+#: acmethemes/customizer/customizer-core.php:16
+msgid "Site Title and Tagline"
+msgstr ""
+
+#: acmethemes/customizer/customizer-core.php:17
+msgid "Disable"
+msgstr ""
+
+#: acmethemes/customizer/customizer-core.php:35
+msgid "Hide"
+msgstr ""
+
+#: acmethemes/customizer/customizer-core.php:36
+msgid "Ads Image"
+msgstr ""
+
+#: acmethemes/customizer/customizer-core.php:54
+msgid "Left Logo and Right Ads"
+msgstr ""
+
+#: acmethemes/customizer/customizer-core.php:55
+msgid "Right Logo and Left Ads"
+msgstr ""
+
+#: acmethemes/customizer/customizer-core.php:56
+msgid "Center Logo and Below Ads"
+msgstr ""
+
+#: acmethemes/customizer/customizer-core.php:74
+msgid "Normal Search"
+msgstr ""
+
+#: acmethemes/customizer/customizer-core.php:75
+msgid "Dropdown Search"
+msgstr ""
+
+#: acmethemes/customizer/customizer-core.php:94
+msgid "Fullwidth"
+msgstr ""
+
+#: acmethemes/customizer/customizer-core.php:95
+msgid "Boxed"
+msgstr ""
+
+#: acmethemes/customizer/customizer-core.php:113
+msgid "Right Sidebar"
+msgstr ""
+
+#: acmethemes/customizer/customizer-core.php:114
+msgid "Left Sidebar"
+msgstr ""
+
+#: acmethemes/customizer/customizer-core.php:115
+msgid "No Sidebar"
+msgstr ""
+
+#: acmethemes/customizer/customizer-core.php:134
+msgid "Left Image"
+msgstr ""
+
+#: acmethemes/customizer/customizer-core.php:135
+msgid "Large Image"
+msgstr ""
+
+#: acmethemes/customizer/customizer-core.php:136
+#: acmethemes/customizer/customizer-core.php:216
+msgid "No Image"
+msgstr ""
+
+#: acmethemes/customizer/customizer-core.php:154
+msgid "Recents posts"
+msgstr ""
+
+#: acmethemes/customizer/customizer-core.php:155
+msgid "Category"
+msgstr ""
+
+#: acmethemes/customizer/customizer-core.php:156
+msgid "Post 2 - Add 2"
+msgstr ""
+
+#: acmethemes/customizer/customizer-core.php:174
+msgid "Default"
+msgstr ""
+
+#: acmethemes/customizer/customizer-core.php:175
+msgid "Numeric"
+msgstr ""
+
+#: acmethemes/customizer/customizer-core.php:193
+msgid "Do Not Reset"
+msgstr ""
+
+#: acmethemes/customizer/customizer-core.php:194
+msgid "Reset Colors Options"
+msgstr ""
+
+#: acmethemes/customizer/customizer-core.php:195
+msgid "Reset All"
+msgstr ""
+
+#: acmethemes/customizer/customizer-core.php:221
+msgid "full (original)"
+msgstr ""
+
+#: acmethemes/customizer/customizer-core.php:263
+#: acmethemes/hooks/header.php:175
+msgid "Recent posts"
+msgstr ""
+
+#: acmethemes/customizer/customizer-core.php:284
+msgid "Copyright &copy; All rights reserved"
+msgstr ""
+
+#: acmethemes/customizer/customizer-core.php:301
+#: acmethemes/customizer/options/search.php:7
+msgid "Search"
+msgstr ""
+
+#: acmethemes/customizer/customizer-pro/class-customize.php:76
+msgid "SuperMagPro"
+msgstr ""
+
+#: acmethemes/customizer/customizer-pro/class-customize.php:77
+msgid "Upgrade To Pro"
+msgstr ""
+
+#: acmethemes/customizer/design-options/background-image.php:7
+msgid "Background Image"
+msgstr ""
+
+#: acmethemes/customizer/design-options/blog-layout.php:7
+#: acmethemes/customizer/design-options/blog-layout.php:20
+#: acmethemes/customizer/single-posts/single-post-section.php:19
+msgid "Default Blog/Archive Layout"
+msgstr ""
+
+#: acmethemes/customizer/design-options/blog-layout.php:21
+#: acmethemes/customizer/single-posts/single-post-section.php:20
+msgid "Image display options"
+msgstr ""
+
+#: acmethemes/customizer/design-options/blog-layout.php:38
+#: acmethemes/customizer/single-posts/single-post-section.php:36
+msgid "Image Layout Options"
+msgstr ""
+
+#: acmethemes/customizer/design-options/blog-layout.php:52
+msgid "Disable Zoom Image on Hover"
+msgstr ""
+
+#: acmethemes/customizer/design-options/colors-options.php:7
+msgid "Colors"
+msgstr ""
+
+#: acmethemes/customizer/design-options/colors-options.php:17
+msgid "Primary Color"
+msgstr ""
+
+#: acmethemes/customizer/design-options/custom-css.php:7
+#: acmethemes/customizer/design-options/custom-css.php:18
+msgid "Custom CSS"
+msgstr ""
+
+#: acmethemes/customizer/design-options/default-layout.php:7
+#: acmethemes/customizer/design-options/default-layout.php:21
+msgid "Default Layout"
+msgstr ""
+
+#: acmethemes/customizer/design-options/default-layout.php:22
+msgid "Boxed will add box-shadow"
+msgstr ""
+
+#: acmethemes/customizer/design-options/design-panel.php:7
+msgid "Layout/Design Option"
+msgstr ""
+
+#: acmethemes/customizer/design-options/sidebar-layout.php:7
+#: acmethemes/customizer/design-options/sidebar-layout.php:20
+msgid "Default Sidebar Layout"
+msgstr ""
+
+#: acmethemes/customizer/feature-section/feature-category.php:7
+msgid "Category Slider Selection"
+msgstr ""
+
+#: acmethemes/customizer/feature-section/feature-category.php:23
+msgid "Select Category For Slider"
+msgstr ""
+
+#: acmethemes/customizer/feature-section/feature-enable.php:7
+#: acmethemes/customizer/feature-section/feature-enable.php:19
+msgid "Enable Feature Section"
+msgstr ""
+
+#: acmethemes/customizer/feature-section/feature-enable.php:20
+msgid ""
+"Feature section will display on front/home page. Feature Section includes "
+"Category Slider and Slider Right Section. Please select \"A static page\" "
+"for displaying feature section"
+msgstr ""
+
+#: acmethemes/customizer/feature-section/feature-panel.php:7
+msgid "Featured Section Options"
+msgstr ""
+
+#: acmethemes/customizer/feature-section/feature-panel.php:8
+msgid "Customize your awesome site feature section "
+msgstr ""
+
+#: acmethemes/customizer/feature-section/feature-side.php:36
+msgid "Slider Right Section"
+msgstr ""
+
+#: acmethemes/customizer/feature-section/feature-side.php:49
+msgid "Select Layout For Featured Side"
+msgstr ""
+
+#: acmethemes/customizer/feature-section/feature-side.php:68
+msgid "Select Category For Side"
+msgstr ""
+
+#: acmethemes/customizer/feature-section/feature-side.php:89
+msgid "Select Post One"
+msgstr ""
+
+#: acmethemes/customizer/feature-section/feature-side.php:111
+msgid "Select Post Two"
+msgstr ""
+
+#: acmethemes/customizer/feature-section/feature-side.php:133
+#, php-format
+msgid ""
+"Note : If you select same post for post one and post two in the above "
+"selection, then only one post will display %s"
+msgstr ""
+
+#: acmethemes/customizer/feature-section/feature-side.php:153
+msgid "Enter Image One"
+msgstr ""
+
+#: acmethemes/customizer/feature-section/feature-side.php:158
+#: acmethemes/customizer/feature-section/feature-side.php:194
+msgid "Recommended image size of 240*172"
+msgstr ""
+
+#: acmethemes/customizer/feature-section/feature-side.php:170
+msgid "Image One Link"
+msgstr ""
+
+#: acmethemes/customizer/feature-section/feature-side.php:189
+msgid "Enter Image Two"
+msgstr ""
+
+#: acmethemes/customizer/feature-section/feature-side.php:206
+msgid "Image Two Link"
+msgstr ""
+
+#: acmethemes/customizer/feature-section/feature-side.php:226
+msgid ""
+"Note: if you want to add post here, just add image for post and link, "
+"Strongly recommended image size is 240*172"
+msgstr ""
+
+#: acmethemes/customizer/footer-section/footer-section.php:7
+msgid "Footer Option"
+msgstr ""
+
+#: acmethemes/customizer/footer-section/footer-section.php:17
+msgid "Copyright Text"
+msgstr ""
+
+#: acmethemes/customizer/header-options/ad-option.php:7
+msgid "Header Advertisement"
+msgstr ""
+
+#: acmethemes/customizer/header-options/ad-option.php:20
+msgid "Advertisement Show Option"
+msgstr ""
+
+#: acmethemes/customizer/header-options/ad-option.php:38
+msgid "Header Ad Image"
+msgstr ""
+
+#: acmethemes/customizer/header-options/ad-option.php:43
+msgid "Recommended image size of 728*90"
+msgstr ""
+
+#: acmethemes/customizer/header-options/ad-option.php:56
+msgid "Header Ad Image Link"
+msgstr ""
+
+#: acmethemes/customizer/header-options/header-date.php:7
+msgid "Enable Date"
+msgstr ""
+
+#: acmethemes/customizer/header-options/header-date.php:19
+msgid "Show Date"
+msgstr ""
+
+#: acmethemes/customizer/header-options/header-logo.php:16
+msgid "Logo"
+msgstr ""
+
+#: acmethemes/customizer/header-options/header-logo.php:35
+msgid "Logo/Site Title-Tagline Display Options"
+msgstr ""
+
+#: acmethemes/customizer/header-options/header-news.php:7
+msgid "Breaking News Options"
+msgstr ""
+
+#: acmethemes/customizer/header-options/header-news.php:18
+msgid "Breaking News Title"
+msgstr ""
+
+#: acmethemes/customizer/header-options/header-news.php:32
+msgid "Enable Breaking News"
+msgstr ""
+
+#: acmethemes/customizer/header-options/header-panel.php:7
+msgid "Header Options"
+msgstr ""
+
+#: acmethemes/customizer/header-options/header-panel.php:8
+msgid "Customize your awesome site header "
+msgstr ""
+
+#: acmethemes/customizer/header-options/menu-option.php:7
+msgid "Menu Options"
+msgstr ""
+
+#: acmethemes/customizer/header-options/menu-option.php:18
+msgid "Show Home Icon On Menu"
+msgstr ""
+
+#: acmethemes/customizer/header-options/menu-option.php:32
+msgid "Enable Random Post"
+msgstr ""
+
+#: acmethemes/customizer/header-options/menu-option.php:46
+msgid "Show Search On Menu"
+msgstr ""
+
+#: acmethemes/customizer/header-options/menu-option.php:62
+msgid "Search Type"
+msgstr ""
+
+#: acmethemes/customizer/header-options/menu-option.php:76
+msgid "Enable Sticky Menu"
+msgstr ""
+
+#: acmethemes/customizer/header-options/site-identity-placement.php:7
+msgid "Header Placement"
+msgstr ""
+
+#: acmethemes/customizer/header-options/site-identity-placement.php:21
+msgid "Logo and Advertisement Position"
+msgstr ""
+
+#: acmethemes/customizer/header-options/social-options.php:7
+msgid "Social Options"
+msgstr ""
+
+#: acmethemes/customizer/header-options/social-options.php:18
+msgid "Facebook url"
+msgstr ""
+
+#: acmethemes/customizer/header-options/social-options.php:32
+msgid "Twitter url"
+msgstr ""
+
+#: acmethemes/customizer/header-options/social-options.php:46
+msgid "Youtube url"
+msgstr ""
+
+#: acmethemes/customizer/header-options/social-options.php:61
+msgid "Instagram url"
+msgstr ""
+
+#: acmethemes/customizer/header-options/social-options.php:76
+msgid "Google Plus Url"
+msgstr ""
+
+#: acmethemes/customizer/header-options/social-options.php:90
+msgid "Pinterest url"
+msgstr ""
+
+#: acmethemes/customizer/header-options/social-options.php:104
+msgid "Enable social"
+msgstr ""
+
+#: acmethemes/customizer/options/breadcrumb.php:7
+msgid "Breadcrumb Options"
+msgstr ""
+
+#: acmethemes/customizer/options/breadcrumb.php:19
+msgid "Enable Breadcrumb"
+msgstr ""
+
+#: acmethemes/customizer/options/front-page.php:7
+msgid "Front Page Options"
+msgstr ""
+
+#: acmethemes/customizer/options/front-page.php:19
+msgid "Hide Blog Posts or Static Page on Front Page"
+msgstr ""
+
+#: acmethemes/customizer/options/options-panel.php:7
+msgid "Theme Options"
+msgstr ""
+
+#: acmethemes/customizer/options/options-panel.php:8
+msgid "Customize your awesome site with theme options "
+msgstr ""
+
+#: acmethemes/customizer/options/options-reset.php:45
+#: acmethemes/customizer/options/options-reset.php:59
+msgid "Reset Options"
+msgstr ""
+
+#: acmethemes/customizer/options/options-reset.php:60
+msgid ""
+"Caution: Reset theme settings according to the given options. Refresh the "
+"page after saving to view the effects. "
+msgstr ""
+
+#: acmethemes/customizer/options/search.php:18
+msgid "Search Placeholder"
+msgstr ""
+
+#: acmethemes/customizer/single-posts/single-post-section.php:7
+msgid "Single Post Options"
+msgstr ""
+
+#: acmethemes/customizer/single-posts/single-post-section.php:51
+msgid "Show Related Posts In Single Post"
+msgstr ""
+
+#: acmethemes/functions.php:65
+#, php-format
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr ""
+
+#: acmethemes/functions.php:68
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: acmethemes/functions.php:76
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: acmethemes/functions.php:78
+msgid "(Edit)"
+msgstr ""
+
+#: acmethemes/functions.php:157
+msgid "You are here"
+msgstr ""
+
+#: acmethemes/functions.php:158
+msgid "Home"
+msgstr ""
+
+#: acmethemes/functions.php:159
+msgid "Search Results for "
+msgstr ""
+
+#: acmethemes/functions.php:254
+msgid "Posts tagged :"
+msgstr ""
+
+#: acmethemes/functions.php:259
+msgid "Author :"
+msgstr ""
+
+#: acmethemes/functions.php:262
+msgid "Error 404 :"
+msgstr ""
+
+#: acmethemes/functions.php:270
+msgid "Page"
+msgstr ""
+
+#: acmethemes/hooks/comment-forms.php:17
+msgid "Name"
+msgstr ""
+
+#: acmethemes/hooks/comment-forms.php:18
+msgid "Email"
+msgstr ""
+
+#: acmethemes/hooks/comment-forms.php:19
+msgid "Website URL"
+msgstr ""
+
+#: acmethemes/hooks/comment-forms.php:20
+msgid "Comment"
+msgstr ""
+
+#: acmethemes/hooks/comment-forms.php:22
+msgid "Add Comment"
+msgstr ""
+
+#: acmethemes/hooks/comment-forms.php:23
+#, php-format
+msgid "%s Leave a Comment"
+msgstr ""
+
+#: acmethemes/hooks/footer.php:73
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: acmethemes/hooks/footer.php:73
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: acmethemes/hooks/footer.php:75
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: acmethemes/hooks/header.php:133
+msgid "Skip to content"
+msgstr ""
+
+#: acmethemes/hooks/related-posts.php:27
+msgid "Related posts"
+msgstr ""
+
+#: acmethemes/hooks/slider-selection.php:22
+msgid "Welcome to SuperMag"
+msgstr ""
+
+#: acmethemes/hooks/slider-selection.php:27
+msgid "A very perfect theme for magazine"
+msgstr ""
+
+#: acmethemes/hooks/slider-selection.php:39
+msgid "Slider Setting"
+msgstr ""
+
+#: acmethemes/hooks/slider-selection.php:44
+msgid ""
+"Goto Appearance > Customize > Featured Section Options, for setting up "
+"feature slider and featured options"
+msgstr ""
+
+#: acmethemes/sidebar-widget/acme-ad.php:30
+msgid "AT Advertisement"
+msgstr ""
+
+#: acmethemes/sidebar-widget/acme-ad.php:32
+msgid "Add advertisement with different options."
+msgstr ""
+
+#: acmethemes/sidebar-widget/acme-ad.php:48
+msgid ""
+"You can use any size of Advertisement image but recommended to use proper "
+"image according to sidebar width."
+msgstr ""
+
+#: acmethemes/sidebar-widget/acme-ad.php:52
+#: acmethemes/sidebar-widget/acme-col-posts.php:68
+msgid "Title:"
+msgstr ""
+
+#: acmethemes/sidebar-widget/acme-ad.php:55
+msgid "Advertisement Image"
+msgstr ""
+
+#: acmethemes/sidebar-widget/acme-ad.php:58
+msgid "Select Advertisement Image"
+msgstr ""
+
+#: acmethemes/sidebar-widget/acme-ad.php:67
+msgid "Image preview"
+msgstr ""
+
+#: acmethemes/sidebar-widget/acme-ad.php:70
+msgid "Upload Image"
+msgstr ""
+
+#: acmethemes/sidebar-widget/acme-ad.php:70
+msgid "Select Ad Image"
+msgstr ""
+
+#: acmethemes/sidebar-widget/acme-ad.php:71
+msgid "Remove Image"
+msgstr ""
+
+#: acmethemes/sidebar-widget/acme-ad.php:74
+msgid "Alt Text:"
+msgstr ""
+
+#: acmethemes/sidebar-widget/acme-ad.php:78
+msgid "Link URL:"
+msgstr ""
+
+#: acmethemes/sidebar-widget/acme-ad.php:83
+msgid "Open in new window"
+msgstr ""
+
+#: acmethemes/sidebar-widget/acme-col-posts.php:33
+msgid "AT Posts Column"
+msgstr ""
+
+#: acmethemes/sidebar-widget/acme-col-posts.php:35
+msgid "Show posts selected category"
+msgstr ""
+
+#: acmethemes/sidebar-widget/acme-col-posts.php:55
+msgid "Layout 1"
+msgstr ""
+
+#: acmethemes/sidebar-widget/acme-col-posts.php:55
+msgid "Layout 2"
+msgstr ""
+
+#: acmethemes/sidebar-widget/acme-col-posts.php:72
+msgid "Select Category"
+msgstr ""
+
+#: acmethemes/sidebar-widget/acme-col-posts.php:75
+msgid "From Recent Posts"
+msgstr ""
+
+#: acmethemes/sidebar-widget/acme-col-posts.php:94
+msgid "Enable First Post Featured"
+msgstr ""
+
+#: acmethemes/sidebar-widget/acme-col-posts.php:99
+msgid "First Featured Post Layout"
+msgstr ""
+
+#: acmethemes/sidebar-widget/acme-col-posts.php:101
+#: acmethemes/sidebar-widget/acme-col-posts.php:115
+#: acmethemes/sidebar-widget/acme-col-posts.php:129
+msgid "Enable First Post Featured to work this layout"
+msgstr ""
+
+#: acmethemes/sidebar-widget/acme-col-posts.php:113
+msgid "First Featured Post Image"
+msgstr ""
+
+#: acmethemes/sidebar-widget/acme-col-posts.php:127
+msgid "Normal Featured Post Image"
+msgstr ""
+
+#: acmethemes/sidebar-widget/acme-col-posts.php:140
+msgid ""
+"Note: Some of the features only work in \"Home main content area\" due to "
+"minimum width in other areas."
+msgstr ""
+
+#: acmethemes/sidebar-widget/sidebar.php:10
+msgid "Main Sidebar Area"
+msgstr ""
+
+#: acmethemes/sidebar-widget/sidebar.php:12
+msgid "Displays items on sidebar."
+msgstr ""
+
+#: acmethemes/sidebar-widget/sidebar.php:20
+msgid "Home Main Content Area"
+msgstr ""
+
+#: acmethemes/sidebar-widget/sidebar.php:22
+msgid "Displays widgets on home page main content area."
+msgstr ""
+
+#: acmethemes/sidebar-widget/sidebar.php:30
+msgid "Footer Column One"
+msgstr ""
+
+#: acmethemes/sidebar-widget/sidebar.php:32
+#: acmethemes/sidebar-widget/sidebar.php:42
+#: acmethemes/sidebar-widget/sidebar.php:52
+msgid "Displays items on top footer section."
+msgstr ""
+
+#: acmethemes/sidebar-widget/sidebar.php:40
+msgid "Footer Column Two"
+msgstr ""
+
+#: acmethemes/sidebar-widget/sidebar.php:50
+msgid "Footer Column Three"
+msgstr ""
+
+#: comments.php:32
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:41 comments.php:63
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:44 comments.php:66
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:45 comments.php:67
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:79
+msgid "Comments are closed."
+msgstr ""
+
+#: search.php:19
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/content-none.php:15
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:21
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:25
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:30
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:22 template-parts/content-single.php:40
+#: template-parts/content.php:56
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content.php:52
+msgid "Read More"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "SuperMag"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://www.acmethemes.com/themes/supermag/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Acme Themes  ( https://www.acmethemes.com ) proudly presents SuperMag, a "
+"Ultimate Theme for Magazine. SuperMag is specially designed for news, "
+"magazine and blog, suitable for any magazine style site. SuperMag is also "
+"advertisement ready theme, Advertisement can be added from customizer and "
+"widgets. SuperMag is highly customizable theme. You can customize header, "
+"footer, sidebar, main homepage and inner sections. The whole site color can "
+"be changed with single click. SuperMag is widgetized theme, with advanced "
+"widgets you can design your site yourself. Its unique feature includes: drag/"
+"drop/reorder widgetized area, advanced custom widgets, advanced layout "
+"options, breaking news options, featured images options for blog/category/"
+"archive pages and single page/post, social media integration, advertisement "
+"ready, breadcrumb and more. Design your site without touching code. You can "
+"check our demo here http://www.acmethemes.com/demo/?theme=supermag"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "acmethemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.acmethemes.com/"
+msgstr ""

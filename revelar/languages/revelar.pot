@@ -1,0 +1,215 @@
+# Copyright (C) 2016 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Revelar 1.0.3\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/theme/revelar\n"
+"POT-Creation-Date: 2016-04-14 03:44:54+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:21
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: 404.php:29
+msgid "Most Used Categories"
+msgstr ""
+
+#. translators: %1$s: smiley
+#: 404.php:46
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: comments.php:30
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:39 comments.php:61
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:42 comments.php:64
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:43 comments.php:65
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:77
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:15
+msgid "http://wordpress.org/"
+msgstr ""
+
+#: footer.php:15
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: footer.php:17
+msgid "Theme: %1$s by %2$s"
+msgstr ""
+
+#: functions.php:38
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:98
+msgid "First Footer Widget Area"
+msgstr ""
+
+#: functions.php:107
+msgid "Second Footer Widget Area"
+msgstr ""
+
+#: functions.php:116
+msgid "Third Footer Widget Area"
+msgstr ""
+
+#. Translators: If there are characters in your language that are not
+#. 	 * supported by Open Sans, translate this to 'off'. Do not translate
+#. 	 * into your own language.
+#: functions.php:160
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr ""
+
+#. Translators: If there are characters in your language that are not
+#. 	 * supported by Bitter, translate this to 'off'. Do not translate into your
+#. 	 * own language.
+#: functions.php:166
+msgctxt "Merriweather font: on or off"
+msgid "on"
+msgstr ""
+
+#. Translators: If there are characters in your language that are not
+#. 	 * supported by Bitter, translate this to 'off'. Do not translate into your
+#. 	 * own language.
+#: functions.php:172
+msgctxt "Abril Fatface font: on or off"
+msgid "on"
+msgstr ""
+
+#: header.php:22
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:41
+msgid "Menu"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:69 inc/template-tags.php:75
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:71
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/template-tags.php:77
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/template-tags.php:83
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/template-tags.php:83
+msgid "1 Comment"
+msgstr ""
+
+#: inc/template-tags.php:83
+msgid "% Comments"
+msgstr ""
+
+#: inc/template-tags.php:87 template-parts/content-page.php:25
+msgid "Edit"
+msgstr ""
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:102 template-parts/content.php:31
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/template-tags.php:156
+msgid "All %s posts"
+msgstr ""
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/content-gallery.php:33 template-parts/content-page.php:18
+#: template-parts/content-video.php:43 template-parts/content.php:38
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:19
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-video.php:8
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+#: wp-content/themes/pub/revelar/style.css
+msgid "Revelar"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+#: wp-content/themes/pub/revelar/style.css
+msgid "https://wordpress.com/themes/revelar"
+msgstr ""
+
+#. Description of the plugin/theme
+#: wp-content/themes/pub/revelar/style.css
+msgid ""
+"Revelar is a single-column blogging theme, designed to showcase your "
+"gorgeous photography and highlight your writing, while providing an "
+"immersive experience for your visitors."
+msgstr ""
+
+#. Author of the plugin/theme
+#: wp-content/themes/pub/revelar/style.css
+msgid "Automattic"
+msgstr ""
+
+#. Author URI of the plugin/theme
+#: wp-content/themes/pub/revelar/style.css
+msgid "http://www.wordpress.com/themes"
+msgstr ""

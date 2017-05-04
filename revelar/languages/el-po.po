@@ -1,0 +1,157 @@
+# Translation of Revelar in Greek (Polytonic)
+# This file is distributed under the same license as the Revelar package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-01-27 11:02:03+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Revelar\n"
+
+#: template-parts/content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Μᾶλλον δὲν μποροῦμε νὰ βροῦμε αὐτὸ ποὺ ψάχνετε. Ἴσως βοηθήσει μιὰ ἀναζήτηση."
+
+#: template-parts/content-video.php:8
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Συνέχεια <span class=\"meta-nav\">&rarr;</span>"
+
+#: template-parts/content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Ἕτοιμος/-η γιὰ τὸ πρῶτο σας ἄρθρο; <a href=\"%1$s\">Ξεκινῆστε ἀπὸ δῶ</a>."
+
+#: template-parts/content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Λυπούμεθα, ἀλλὰ τίποτε δὲν ταιριάζει μὲ τὶς λέξεις ἀναζήτησης. Παρακαλοῦμε ξαναδοκιμάστε μὲ διαφορετικὲς λέξεις-κλειδιά."
+
+#: template-parts/content-gallery.php:33 template-parts/content-page.php:18
+#: template-parts/content-video.php:43 template-parts/content.php:38
+msgid "Pages:"
+msgstr "Σελίδες:"
+
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr "Δὲν βρέθηκε τίποτε"
+
+#: inc/template-tags.php:156
+msgid "All %s posts"
+msgstr "Ὅλα τὰ ἄρθρα τοῦ %s"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Ἀναζήτηση ἀποτελεσμάτων γιά: %s"
+
+#: inc/template-tags.php:87 template-parts/content-page.php:25
+msgid "Edit"
+msgstr "Ἐπεξεργασία"
+
+#: inc/template-tags.php:83
+msgid "1 Comment"
+msgstr "1 σχόλιο"
+
+#: inc/template-tags.php:83
+msgid "% Comments"
+msgstr "% Σχόλια"
+
+#: inc/template-tags.php:71
+msgid "Posted in %1$s"
+msgstr "Ἀναρτήθηκε στὸ '%1$s'"
+
+#: inc/template-tags.php:77
+msgid "Tagged %1$s"
+msgstr "Σημειώθηκε ὡς %1$s"
+
+#: inc/template-tags.php:83
+msgid "Leave a comment"
+msgstr "Σχολιάστε"
+
+#: header.php:41
+msgid "Menu"
+msgstr "Μενού"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:69 inc/template-tags.php:75
+msgid ", "
+msgstr ","
+
+#: functions.php:107
+msgid "Second Footer Widget Area"
+msgstr "Δεύτερη περιοχὴ προσθηκῶν ὑποσελίδου"
+
+#: functions.php:116
+msgid "Third Footer Widget Area"
+msgstr "Τρίτη περιοχὴ προσθηκῶν ὑποσελίδου"
+
+#. Translators: If there are characters in your language that are not
+#. * supported by Bitter, translate this to 'off'. Do not translate into your
+#. * own language.
+#: functions.php:166
+msgctxt "Merriweather font: on or off"
+msgid "on"
+msgstr "on"
+
+#: header.php:22
+msgid "Skip to content"
+msgstr "Πηγαίνετε στὸ περιεχόμενο τοῦ ἱστολογίου"
+
+#: footer.php:17
+msgid "Theme: %1$s by %2$s"
+msgstr "Θέμα: %1$s ἀπὸ τὸν/τὴν %2$s"
+
+#: functions.php:38
+msgid "Primary Menu"
+msgstr "Πρωτεῦον μενού"
+
+#: functions.php:98
+msgid "First Footer Widget Area"
+msgstr "Πρώτη περιοχὴ προσθηκῶν ὑποσελίδου"
+
+#: footer.php:15
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: footer.php:15
+msgid "Proudly powered by %s"
+msgstr "Λειτουργεῖ μὲ τὴν βοήθεια τοῦ %s"
+
+#: comments.php:43 comments.php:65
+msgid "Newer Comments"
+msgstr "Νεότερα σχόλια"
+
+#: comments.php:77
+msgid "Comments are closed."
+msgstr "Ἡ ὑποβολὴ σχολίων ἔχει κλείσει."
+
+#: comments.php:39 comments.php:61
+msgid "Comment navigation"
+msgstr "Πλοήγηση στὰ σχόλια"
+
+#: comments.php:42 comments.php:64
+msgid "Older Comments"
+msgstr "Παλαιότερα σχόλια"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Στὴν τοποθεσία αὐτὴν δὲν βρέθηκε τίποτε. Ἂν θέλετε δοκιμάστε κάποιον ἀπὸ τοὺς κατωτέρω συνδέσμους ἢ μιὰν ἀναζήτηση."
+
+#: 404.php:29
+msgid "Most Used Categories"
+msgstr "Οἱ πιὸ χρησιμοποιημένες κατηγορίες"
+
+#. translators: %1$s: smiley
+#: 404.php:46
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Προσπαθῆστε νὰ ψάξετε στὰ μηνιαῖα ἀρχεῖα. %1$s"
+
+#: comments.php:30
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Μιὰ σκέψη πάνω στὸ &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s σκέψεις πάνω στὸ &ldquo;%2$s&rdquo;"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ἡ σελίδα αὐτὴ δὲν βρέθηκε."

@@ -1,0 +1,321 @@
+/*
+Theme Name: Revelar
+
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+http://codex.wordpress.org/Right_to_Left_Language_Support
+
+*/
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+/*--------------------------------------------------------------
+ 2.1 Typography
+--------------------------------------------------------------*/
+blockquote {
+	padding: 0.75em 2rem 0.75em 0;
+	border-right: 4px solid #ecf0f1;
+	border-left: none;
+}
+
+blockquote cite {
+	text-align: left;
+}
+
+/*--------------------------------------------------------------
+ 2.2 Elements
+--------------------------------------------------------------*/
+ul,
+ol {
+	margin: 0 1.75em 1.75em 0;
+}
+
+li > ul,
+li > ol {
+	margin-right: 1.75em;
+	margin-left: auto;
+}
+
+caption,
+th,
+td {
+	text-align: right;
+}
+
+/*--------------------------------------------------------------
+ 4.5 Header
+--------------------------------------------------------------*/
+.site-branding {
+	padding: 18px 1.75em 18px 5%;
+}
+
+@media (min-width:48em) {
+	.site-branding {
+		padding-left: 10%;
+		padding-right: auto;
+	}
+
+}
+
+/*--------------------------------------------------------------
+ 5.0 Main Navigation
+--------------------------------------------------------------*/
+.main-navigation ul {
+	padding-right: 0;
+	padding-left: auto;
+}
+
+.main-navigation ul ul ul li {
+	padding-right: 30px;
+	padding-left: auto;
+}
+
+.main-navigation ul ul li:hover > ul,
+.main-navigation ul ul li.focus > ul {
+	right: 100%;
+	left: auto;
+}
+
+.main-navigation ul ul a {
+	border-right: none;
+}
+
+.main-navigation ul li:hover > ul,
+.main-navigation ul li.focus > ul {
+	right: auto;
+}
+
+.main-navigation a {
+	border-right: 1px solid #efefef;
+	border-left: none;
+}
+
+.main-navigation .menu-item-has-children > a:after {
+	position: absolute;
+	left: 20px;
+	right: auto;
+}
+
+@media screen and (min-width:48.0625em) {
+	.main-navigation-wrap {
+		text-align: left;
+	}
+
+	.main-navigation ul ul {
+		position: absolute;
+		right: 5px;
+		left: auto;
+		text-align: right;
+	}
+
+	.main-navigation ul ul li {
+		margin-right: 0;
+	}
+
+	.main-navigation ul ul a {
+		border-right: none;
+	}
+
+	.main-navigation ul ul ul li {
+		padding-right: 0;
+	}
+
+	.main-navigation .menu-item-has-children > a {
+		padding-left: 4rem;
+		padding-right: 2.6rem;
+	}
+
+	.main-navigation ul ul li:hover > ul,
+	.main-navigation ul ul li.focus > ul {
+		right: auto;
+		left: 100%;
+	}
+
+}
+
+/*--------------------------------
+ 5.5 CONTENT NAVIGATION
+---------------------------------*/
+
+/* All Post Navigation */
+@media (min-width:48em) {
+	.comment-navigation .nav-previous,
+	.posts-navigation .nav-previous,
+	.post-navigation .nav-previous {
+		float: right;
+	}
+
+}
+
+.comment-navigation .nav-next,
+.posts-navigation .nav-next,
+.post-navigation .nav-next {
+	text-align: left;
+}
+
+@media (min-width:48em) {
+	.comment-navigation .nav-next,
+	.posts-navigation .nav-next,
+	.post-navigation .nav-next {
+		float: left;
+	}
+
+}
+
+.comment-navigation .nav-next a:after,
+.posts-navigation .nav-next a:after,
+.post-navigation .nav-next a:after,
+.comment-navigation .nav-previous a:before,
+.posts-navigation .nav-previous a:before,
+.post-navigation .nav-previous a:before {
+	content: '\f429';
+	margin-left: 6px;
+	margin-right: auto;
+}
+
+.comment-navigation .nav-next a:after,
+.posts-navigation .nav-next a:after,
+.post-navigation .nav-next a:after {
+	content: '\f430';
+}
+
+/*--------------------------------------------------------------
+ 9.0 Widgets
+--------------------------------------------------------------*/
+@media (min-width:48em) {
+
+	/* Footer Widget Areas */
+	.secondary-content .sidebar {
+		float: right;
+	}
+
+	.secondary-content .sidebar:nth-child(1):nth-last-child(2),
+	.secondary-content .sidebar:nth-child(2):nth-last-child(1) {
+		margin-left: 8%;
+		margin-right: auto;
+	}
+
+	.secondary-content .sidebar:nth-child(1):nth-last-child(2):last-of-type,
+	.secondary-content .sidebar:nth-child(2):nth-last-child(1):last-of-type {
+		margin-left: 0;
+	}
+
+	.secondary-content .sidebar:nth-child(1):nth-last-child(3),
+	.secondary-content .sidebar:nth-child(2):nth-last-child(2),
+	.secondary-content .sidebar:nth-child(3):nth-last-child(1) {
+		margin-left: 4%;
+		margin-right: auto;
+	}
+
+	.secondary-content .sidebar:nth-child(1):nth-last-child(3):last-of-type,
+	.secondary-content .sidebar:nth-child(2):nth-last-child(2):last-of-type,
+	.secondary-content .sidebar:nth-child(3):nth-last-child(1):last-of-type {
+		margin-left: 0;
+	}
+
+}
+
+.widget > ul,
+.widget > div > ul {
+	margin-right: 0;
+}
+
+/*--------------------------------------------------------------
+ 10.0 Content
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+ 10.1 Posts and pages
+--------------------------------------------------------------*/
+.entry-title a {
+	float: right;
+}
+
+.entry-header .posted-on {
+	margin-left: 2px;
+	margin-right: auto;
+}
+
+/* Post Format Icons */
+@media (min-width:64em) {
+	.post-format-link {
+		margin-left: 0;
+	}
+
+}
+
+.entry-format {
+	margin-left: 0.875em;
+	margin-right: auto;
+}
+
+@media (min-width:64em) {
+	.entry-format {
+		position: absolute;
+		right: -75px;
+		left: auto;
+		top: 5px;
+	}
+
+}
+
+@media (min-width:80em) {
+	.entry-format {
+		right: -90px;
+		left: auto;
+	}
+
+}
+
+@media (min-width: 80em) {
+	.entry-format {
+		right: -90px;
+		left: auto;
+	}
+}
+
+@media (min-width: 48em) {
+	.entry-format {
+		right: -14%;
+		left: auto;
+	}
+}
+
+/* Front Page */
+@media (min-width:48em) {
+	.blog .hentry {
+		margin-left: 2.416666667%;
+		margin-right: 0;
+	}
+
+	.blog .hentry:nth-of-type(2),
+	.blog .hentry:nth-of-type(3n+5) {
+		margin-left: 0;
+	}
+
+}
+
+/*--------------------------------------------------------------
+ 10.3 Comments
+--------------------------------------------------------------*/
+.comment-author .avatar {
+	float: right;
+	margin-right: 0;
+	margin-left: 15px;
+}
+
+/*--------------------------------------------------------------
+ 12.2 Galleries
+--------------------------------------------------------------*/
+@media (min-width:64em) {
+	img.size-big,
+	.wp-caption.caption-big {
+		margin-right: -200px;
+		margin-left: auto;
+	}
+
+}
