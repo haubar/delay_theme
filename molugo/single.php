@@ -48,8 +48,7 @@
 					<a href="#" class="link"><img src="<?php bloginfo('template_directory') ?>/assets/images/icon-3.png" alt="icon link"></a>
 				</div>
 				<div class="title">延伸閱讀</div>
-				<?php //related_entries() ?>
-			</div>
+		</div>
 			<div class="writer-intro">
 				<div class="title">
 					<img src="<?php bloginfo('template_directory') ?>/assets/images/icon-14.png">
