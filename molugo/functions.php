@@ -51,5 +51,8 @@ function getPostViews($postID) {
       returnempty( $count )? 0 : $count ;
 }
 
+add_theme_support( 'post-thumbnails' );
+
+
 
 ?>
