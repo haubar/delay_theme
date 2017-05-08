@@ -11,7 +11,7 @@
 
   	<div class="banner mb-h">
 <?php //echo get_firest_image(); ?>
-		<img src="http://fakeimg.pl/1000x363/aaa/">
+		<img src="https://fakeimg.pl/1000x363/aaa/">
 		<div class="sort"><?php echo get_the_category()[0]->cat_name; ?></div>
 	</div>
   	<div class="wrapper default">
@@ -68,11 +68,11 @@
 					編輯推薦
 				</div>
 				<div class="col">
-					<img src="http://fakeimg.pl/312x112/aaa/">
+					<img src="https://fakeimg.pl/312x112/aaa/">
 					<a class="txt" href="#">爲宣戰主權 灰貓竟然這樣對待電腦</a>
 				</div>
 				<div class="col">
-					<img src="http://fakeimg.pl/312x112/aaa/">
+					<img src="https://fakeimg.pl/312x112/aaa/">
 					<a class="txt" href="#">爲宣戰主權 灰貓竟然這樣對待電腦</a>
 				</div>
 			</div>
