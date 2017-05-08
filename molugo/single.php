@@ -11,7 +11,8 @@
 
   	<div class="banner mb-h">
 <?php //echo get_firest_image(); ?>
-		<img src="https://fakeimg.pl/1000x363/aaa/">
+		<!--<img src="https://fakeimg.pl/1000x363/aaa/">-->
+	<?php	get_attached_media( 'image', $post->ID ); ?>
 		<div class="sort"><?php echo get_the_category()[0]->cat_name; ?></div>
 	</div>
   	<div class="wrapper default">
