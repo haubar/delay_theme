@@ -51,7 +51,11 @@ function getPostViews($postID) {
       returnempty( $count )? 0 : $count ;
 }
 
-add_theme_support( 'post-thumbnails' );
+//加入特色圖片
+function molugo_post_thumbnails() {
+    add_theme_support( 'post-thumbnails' );
+}
+add_action( 'after_setup_theme', 'molugo_post_thumbnails' );
 
 
 
