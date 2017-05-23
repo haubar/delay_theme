@@ -59,10 +59,11 @@ function molugo_post_thumbnails() {
     // add_image_size( 'category-thumb', 300, 9999 ); // 300 pixels wide (and unlimited height)
     add_image_size( 'list-thumb', 367, 210, true ); //
     add_image_size( 'single-thumb', 1000, 363, true); // 
-    add_image_size( 'index-master-thumb', 576, 576 ); // 
-    add_image_size( 'index-slave-thumb', 417, 276 ); // 
-    add_image_size( 'index-center-thumb', 598, 399 ); // 
+    add_image_size( 'index-master-thumb', 576, 576, true); // 
+    add_image_size( 'index-slave-thumb', 417, 276, true); // 
+    add_image_size( 'index-center-thumb', 598, 399, true ); // 
     add_image_size( 'index-list-thumb', 326, 217 ); // 
+    add_image_size( 'min-thumb', 50, 50 , true); // 
      
 }
 add_action( 'after_setup_theme', 'molugo_post_thumbnails' );
