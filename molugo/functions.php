@@ -54,14 +54,16 @@ function getPostViews($postID) {
 //加入特色圖片
 function molugo_post_thumbnails() {
     add_theme_support( 'post-thumbnails' );
-    set_post_thumbnail_size( 367, 210, true); // default Featured Image dimensions (cropped)
+    // set_post_thumbnail_size( 367, 210, true); // default Featured Image dimensions (cropped)
  
     // add_image_size( 'category-thumb', 300, 9999 ); // 300 pixels wide (and unlimited height)
-    add_image_size( 'single-thumb', 1000, 363 ); // 
+    add_image_size( 'list-thumb', 367, 210 ); //
+    add_image_size( 'single-thumb', 9999, 363 ); // 
     add_image_size( 'index-master-thumb', 576, 576 ); // 
     add_image_size( 'index-slave-thumb', 417, 276 ); // 
     add_image_size( 'index-center-thumb', 598, 399 ); // 
-    add_image_size( 'list-thumb', 326, 217 ); // 
+    add_image_size( 'index-list-thumb', 326, 217 ); // 
+     
 }
 add_action( 'after_setup_theme', 'molugo_post_thumbnails' );
 
