@@ -62,7 +62,7 @@ function molugo_post_thumbnails() {
     add_image_size( 'index-master-thumb', 576, 576, true); // 
     add_image_size( 'index-slave-thumb', 417, 276, true); // 
     add_image_size( 'index-center-thumb', 598, 399, true ); // 
-    add_image_size( 'index-list-thumb', 326, 217 ); // 
+    add_image_size( 'index-list-thumb', 326, 217, true ); // 
     add_image_size( 'min-thumb', 50, 50 , true); // 
      
 }
