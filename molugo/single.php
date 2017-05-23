@@ -14,7 +14,7 @@
 		<!--<img src="https://fakeimg.pl/1000x363/aaa/">-->
 		<?php 
 			if( has_post_thumbnail() ):
-				echo get_the_post_thumbnail();
+				echo get_the_post_thumbnail(\null, 1000 );
 			endif; 
 		?>
 		<div class="sort"><?php echo get_the_category()[0]->cat_name; ?></div>
