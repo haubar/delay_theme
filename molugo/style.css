@@ -109,11 +109,11 @@ body * {
   height: 39px;
   display: block;
   margin: auto;
-  background: url(../Images/icon-10.png) no-repeat;
+  background: url(../images/icon-10.png) no-repeat;
   background-size: 100% auto;
 }
 .go-top a:hover {
-  background: url(../Images/icon-10-h.png) no-repeat;
+  background: url(../images/icon-10-h.png) no-repeat;
   background-size: 100% auto;
 }
 
@@ -950,21 +950,21 @@ body > .wrapper.default .main .recom .title:before {
     display: block;
   }
   .footer a:nth-child(1) {
-    background: url(../Images/icon-8.png) no-repeat;
+    background: url(../images/icon-8.png) no-repeat;
     background-size: 100% auto;
     margin-bottom: 14px;
   }
   .footer a:nth-child(1):hover {
-    background: url(../Images/icon-8-h.png) no-repeat;
+    background: url(../images/icon-8-h.png) no-repeat;
     background-size: 100% auto;
   }
   .footer a:nth-child(2) {
-    background: url(../Images/icon-9.png) no-repeat;
+    background: url(../images/icon-9.png) no-repeat;
     background-size: 100% auto;
     margin-bottom: 23px;
   }
   .footer a:nth-child(2):hover {
-    background: url(../Images/icon-9-h.png) no-repeat;
+    background: url(../images/icon-9-h.png) no-repeat;
     background-size: 100% auto;
   }
   .footer > img {
@@ -1508,19 +1508,19 @@ body > .wrapper.default .main .recom .title:before {
     margin: 10px;
   }
   .footer.pc-h a:nth-child(1) {
-    background: url(../Images/icon-8.png) no-repeat;
+    background: url(../images/icon-8.png) no-repeat;
     background-size: 100% auto;
   }
   .footer.pc-h a:nth-child(1):hover {
-    background: url(../Images/icon-8-h.png) no-repeat;
+    background: url(../images/icon-8-h.png) no-repeat;
     background-size: 100% auto;
   }
   .footer.pc-h a:nth-child(2) {
-    background: url(../Images/icon-9.png) no-repeat;
+    background: url(../images/icon-9.png) no-repeat;
     background-size: 100% auto;
   }
   .footer.pc-h a:nth-child(2):hover {
-    background: url(../Images/icon-9-h.png) no-repeat;
+    background: url(../images/icon-9-h.png) no-repeat;
     background-size: 100% auto;
   }
   .footer.pc-h > img {
@@ -1543,21 +1543,21 @@ body > .wrapper.default .main .recom .title:before {
     display: block;
   }
   .footer.mb-h a:nth-child(1) {
-    background: url(../Images/icon-8.png) no-repeat;
+    background: url(../images/icon-8.png) no-repeat;
     background-size: 100% auto;
     margin-bottom: 14px;
   }
   .footer.mb-h a:nth-child(1):hover {
-    background: url(../Images/icon-8-h.png) no-repeat;
+    background: url(../images/icon-8-h.png) no-repeat;
     background-size: 100% auto;
   }
   .footer.mb-h a:nth-child(2) {
-    background: url(../Images/icon-9.png) no-repeat;
+    background: url(../images/icon-9.png) no-repeat;
     background-size: 100% auto;
     margin-bottom: 23px;
   }
   .footer.mb-h a:nth-child(2):hover {
-    background: url(../Images/icon-9-h.png) no-repeat;
+    background: url(../images/icon-9-h.png) no-repeat;
     background-size: 100% auto;
   }
   .footer.mb-h > img {

@@ -86,11 +86,11 @@ body * {
   height: 39px;
   display: block;
   margin: auto;
-  background: url(../Images/icon-10.png) no-repeat;
+  background: url(../images/icon-10.png) no-repeat;
   background-size: 100% auto;
 }
 .go-top a:hover {
-  background: url(../Images/icon-10-h.png) no-repeat;
+  background: url(../images/icon-10-h.png) no-repeat;
   background-size: 100% auto;
 }
 
