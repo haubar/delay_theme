@@ -14,7 +14,7 @@ endif;
 		<!--<img src="http://fakeimg.pl/50x50/ccc/" alt="" class="mb-h left">-->
 		<?php 
 			if( has_post_thumbnail() ):
-				echo get_the_post_thumbnail(\null, 'index-center-thumb', ['class'=>'mb-h', 'class'=>'left']);
+				echo get_the_post_thumbnail(\null, 'min-thumb', ['class'=>'mb-h', 'class'=>'left']);
 			endif; 
 		?>
 		<div class="title right">
