@@ -4,7 +4,7 @@
 			<!--<img src="http://fakeimg.pl/367x210/aaa/" alt="img" class="left">-->
 			<?php 
 				if( has_post_thumbnail() ):
-					echo get_the_post_thumbnail(\null, ['class' => 'left'] );
+					echo get_the_post_thumbnail(\null, array('class' => 'left') );
 				endif; 
 			?>
 			<div class="left">
