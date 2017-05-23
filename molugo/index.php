@@ -19,7 +19,7 @@
 	<!--top area-->
 		<div class="top">
 			<div class="left">
-			<?php $top_cat_pro = '娛樂'; ?>
+			<?php $top_cat_pro = '運動'; ?>
 			<?php query_posts( 'category_name='.$top_cat_pro.'&posts_per_page=1' ); ?>
 				
 				<?php if ( have_posts() ) : ?>
