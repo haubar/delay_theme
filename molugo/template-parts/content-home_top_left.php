@@ -13,7 +13,12 @@ endif;
 ?>
 
 	<div id="post-<?php the_ID(); ?>" class="news-box">
-		<img src="http://fakeimg.pl/576x576/aaa/" alt="img">
+		<!--<img src="http://fakeimg.pl/576x576/aaa/" alt="img">-->
+		<?php 
+			if( has_post_thumbnail() ):
+				echo get_the_post_thumbnail(\null, 'index-master-thumb');
+			endif; 
+		?>
 		<div class="date">
 			<span><?php the_time('m'); ?></span>
 			<span><?php the_time('d'); ?></span>
