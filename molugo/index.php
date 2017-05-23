@@ -89,7 +89,7 @@
 	<!--bottom area-->
 	<div class="bottom">
 		
-		<?php $array_cat = ['社會', '國際', '最新']; ?>
+		<?php $array_cat = ['經濟', '國際', '娛樂']; ?>
 		<?php foreach ($array_cat as $key => $value) { ?>
 			<div class="col">
 			<?php query_posts( 'category_name='.$value.'&posts_per_page=3' ); ?>
