@@ -464,7 +464,7 @@
   .footer a:nth-child(2) {
     background: url(../images/icon-9.png) no-repeat;
     background-size: 100% auto;
-    margin-bottom: 23px;
+    margin-bottom: 14px;
   }
   .footer a:nth-child(2):hover {
     background: url(../images/icon-9-h.png) no-repeat;
@@ -473,7 +473,7 @@
   .footer a:nth-child(3) {
     background: url(../images/icon-18.png) no-repeat;
     background-size: 100% auto;
-    margin-bottom: 32px;
+    margin-bottom: 23px;
   }
   .footer a:nth-child(3):hover {
     background: url(../images/icon-18-h.png) no-repeat;
@@ -1075,7 +1075,7 @@
   .footer.mb-h a:nth-child(2) {
     background: url(../images/icon-9.png) no-repeat;
     background-size: 100% auto;
-    margin-bottom: 23px;
+    margin-bottom: 14px;
   }
   .footer.mb-h a:nth-child(2):hover {
     background: url(../images/icon-9-h.png) no-repeat;
@@ -1084,7 +1084,7 @@
   .footer.mb-h a:nth-child(3) {
     background: url(../images/icon-18.png) no-repeat;
     background-size: 100% auto;
-    margin-bottom: 32px;
+    margin-bottom: 23px;
   }
   .footer.mb-h a:nth-child(3):hover {
     background: url(../images/icon-18-h.png) no-repeat;
