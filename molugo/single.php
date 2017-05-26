@@ -34,7 +34,7 @@
 				<span><?php the_time('D'); ?></span>
 			</div>
 			<div class="other">
-				<div class="writer">特約撰稿人<span><?php the_author() ?></span></div>
+				<div class="writer">作者<span><?php the_author() ?></span></div>
 				<div class="view"><img src="<?php bloginfo('template_directory') ?>/assets/images/icon-12.png" alt=""><?php if(function_exists('the_views')) { the_views(); } ?></div>
 				<div class="img-src">圖片來源：<?php the_author() ?></div>
 			</div>
