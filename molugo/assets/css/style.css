@@ -1512,7 +1512,6 @@ body > .wrapper.default .main .recom .title:before {
   .footer.pc-h a:nth-child(3) {
     background: url(../images/icon-18.png) no-repeat;
     background-size: 100% auto;
-    margin-bottom: 32px;
   }
   .footer.pc-h a:nth-child(3):hover {
     background: url(../images/icon-18-h.png) no-repeat;
