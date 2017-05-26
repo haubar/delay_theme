@@ -39,9 +39,9 @@ jQuery(document).ready(function($) {
 	}
 	jQuery(window).scroll(function(){
 		if(banner === true){
-			jQuery('.footer.mb-h').stop().animate({top: jQuery(this).scrollTop()}, 500);
+			jQuery('.footer.mb-h').stop().animate({top: jQuery(this).scrollTop()}, 'normal');
 		}else{
-			jQuery('.footer.mb-h').stop().animate({top: jQuery(this).scrollTop() + 300}, 500);	
+			jQuery('.footer.mb-h').stop().animate({top: jQuery(this).scrollTop() + 300}, 'normal');	
 		}
 		
 	})
