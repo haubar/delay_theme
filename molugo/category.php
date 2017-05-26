@@ -37,10 +37,10 @@
 					<a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a>
 				</div>
 			</div>
-			<div class="social mb-h">
-				<a href="#" class="like"><img src="<?php bloginfo('template_directory') ?>/assets/images/icon-4.png" alt="icon like"></a>
-				<a href="#" class="link"><img src="<?php bloginfo('template_directory') ?>/assets/images/icon-3.png" alt="icon link"></a>
-			</div>
+			<!--<div class="social mb-h">
+				<a href="#" class="like"><img src="<?php //bloginfo('template_directory') ?>/assets/images/icon-4.png" alt="icon like"></a>
+				<a href="#" class="link"><img src="<?php //bloginfo('template_directory') ?>/assets/images/icon-3.png" alt="icon link"></a>
+			</div>-->
 		</div>
 
 		<?php  endwhile;  ?>
@@ -50,10 +50,10 @@
 				<div class="left">
 					沒有資料.....
 				</div>
-				<div class="social mb-h">
-					<a href="#" class="like"><img src="<?php bloginfo('template_directory') ?>/assets/images/icon-4.png" alt="icon like"></a>
-					<a href="#" class="link"><img src="<?php bloginfo('template_directory') ?>/assets/images/icon-3.png" alt="icon link"></a>
-				</div>
+				<!--<div class="social mb-h">
+					<a href="#" class="like"><img src="<?php //bloginfo('template_directory') ?>/assets/images/icon-4.png" alt="icon like"></a>
+					<a href="#" class="link"><img src="<?php //bloginfo('template_directory') ?>/assets/images/icon-3.png" alt="icon link"></a>
+				</div>-->
 			</div>
     <?php endif; ?>	
 

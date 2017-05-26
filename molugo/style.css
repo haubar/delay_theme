@@ -967,6 +967,15 @@ body > .wrapper.default .main .recom .title:before {
     background: url(../images/icon-9-h.png) no-repeat;
     background-size: 100% auto;
   }
+  .footer a:nth-child(3) {
+    background: url(../images/icon-18.png) no-repeat;
+    background-size: 100% auto;
+    margin-bottom: 32px;
+  }
+  .footer a:nth-child(3):hover {
+    background: url(../images/icon-18-h.png) no-repeat;
+    background-size: 100% auto;
+  }
   .footer > img {
     width: 39px;
     box-sizing: border-box;
@@ -1523,6 +1532,15 @@ body > .wrapper.default .main .recom .title:before {
     background: url(../images/icon-9-h.png) no-repeat;
     background-size: 100% auto;
   }
+  .footer.pc-h a:nth-child(3) {
+    background: url(../images/icon-18.png) no-repeat;
+    background-size: 100% auto;
+    margin-bottom: 32px;
+  }
+  .footer.pc-h a:nth-child(3):hover {
+    background: url(../images/icon-18-h.png) no-repeat;
+    background-size: 100% auto;
+  }
   .footer.pc-h > img {
     box-sizing: border-box;
     padding: 0 12px;
@@ -1558,6 +1576,15 @@ body > .wrapper.default .main .recom .title:before {
   }
   .footer.mb-h a:nth-child(2):hover {
     background: url(../images/icon-9-h.png) no-repeat;
+    background-size: 100% auto;
+  }
+  .footer.mb-h a:nth-child(3) {
+    background: url(../images/icon-18.png) no-repeat;
+    background-size: 100% auto;
+    margin-bottom: 32px;
+  }
+  .footer.mb-h a:nth-child(3):hover {
+    background: url(../images/icon-18-h.png) no-repeat;
     background-size: 100% auto;
   }
   .footer.mb-h > img {

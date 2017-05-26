@@ -38,20 +38,20 @@
 				<div class="view"><img src="<?php bloginfo('template_directory') ?>/assets/images/icon-12.png" alt=""><?php if(function_exists('the_views')) { the_views(); } ?></div>
 				<div class="img-src">圖片來源：<?php the_author() ?></div>
 			</div>
-			<div class="social pc-h">
-				<a href="#" class="like"><img src="<?php bloginfo('template_directory') ?>/assets/images/icon-4.png" alt="icon like"></a>
-				<a href="#" class="link"><img src="<?php bloginfo('template_directory') ?>/assets/images/icon-3.png" alt="icon link"></a>
-			</div>
+			<!--<div class="social pc-h">
+				<a href="#" class="like"><img src="<?php //bloginfo('template_directory') ?>/assets/images/icon-4.png" alt="icon like"></a>
+				<a href="#" class="link"><img src="<?php //bloginfo('template_directory') ?>/assets/images/icon-3.png" alt="icon link"></a>
+			</div>-->
 			<dl class="content">
 				<?php the_content('Read the rest of this entry &raquo;'); ?>
 
 				<?php the_tags('<p class="tags">', ', ', '</p>'); ?>
 			</dl>
 			<div class="more">
-				<div class="social">
-					<a href="#" class="like"><img src="<?php bloginfo('template_directory') ?>/assets/images/icon-4.png" alt="icon like"></a>
-					<a href="#" class="link"><img src="<?php bloginfo('template_directory') ?>/assets/images/icon-3.png" alt="icon link"></a>
-				</div>
+				<!--<div class="social">
+					<a href="#" class="like"><img src="<?php //bloginfo('template_directory') ?>/assets/images/icon-4.png" alt="icon like"></a>
+					<a href="#" class="link"><img src="<?php //bloginfo('template_directory') ?>/assets/images/icon-3.png" alt="icon link"></a>
+				</div>-->
 				<div class="title">延伸閱讀</div>
 				<?php related_posts() ?>
 			</div>
