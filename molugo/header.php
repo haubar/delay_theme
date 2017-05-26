@@ -6,6 +6,7 @@
         <?php wp_head(); ?>
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+		<link rel="icon" type="image/x-icon" href="<?php bloginfo('template_directory') ?>/assets/images/favicon.ico" />
 		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/assets/css/reset.css">
 		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/assets/css/flatpickr.css">
 		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/assets/css/style.css">
