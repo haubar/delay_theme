@@ -54,7 +54,7 @@ function getPostViews($postID) {
 //加入特色圖片
 function molugo_post_thumbnails() {
     add_theme_support( 'post-thumbnails' );
-    // set_post_thumbnail_size( 367, 210, true); // default Featured Image dimensions (cropped)
+    set_post_thumbnail_size( 760, 400); // default Featured Image dimensions (cropped)
  
     // add_image_size( 'category-thumb', 300, 9999 ); // 300 pixels wide (and unlimited height)
     add_image_size( 'list-thumb', 367, 210, true ); //
