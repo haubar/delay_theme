@@ -36,7 +36,7 @@
 			<div class="other">
 				<div class="writer">作者<span><?php the_author() ?></span></div>
 				<div class="view"><img src="<?php bloginfo('template_directory') ?>/assets/images/icon-12.png" alt=""><?php if(function_exists('the_views')) { the_views(); } ?></div>
-				<div class="img-src">圖片來源：<a href="<?php the_field('image_source_url', the_ID()) ?>"><?php the_field('image_source_name', the_ID();) ?></a></div>
+				<div class="img-src">圖片來源：<a href="<?php the_field('image_source_url', the_ID()) ?>"><?php the_field('image_source_name', the_ID()) ?></a></div>
 			</div>
 			<!--<div class="social pc-h">
 				<a href="#" class="like"><img src="<?php //bloginfo('template_directory') ?>/assets/images/icon-4.png" alt="icon like"></a>
