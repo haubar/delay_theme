@@ -66,8 +66,9 @@ function molugo_post_thumbnails() {
     add_image_size( 'min-thumb', 50, 50 , true); // 
      
 }
-add_action( 'after_setup_theme', 'molugo_post_thumbnails' );
 
+//加入後台特色圖片欄位
+add_action( 'after_setup_theme', 'molugo_post_thumbnails' );
 
 
 ?>
