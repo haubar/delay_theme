@@ -88,7 +88,7 @@
 	<?php //wp_pagenavi(); ?>
 
 		<div class="footer mb-h">
-			<a href="#" class="fb"></a>
+			<a href="https://www.facebook.com/delayreport" class="fb"></a>
 			<a href="#" class="email"></a>
 			<a href="#" class="link"></a>
 			<img src="<?php bloginfo('template_directory') ?>/assets/images/copyright.png" alt="copyright">
