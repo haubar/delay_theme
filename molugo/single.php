@@ -67,7 +67,7 @@
 				</div>
 
 			</div>
-			<div class="recom">
+			<!--<div class="recom">
 				<div class="title">
 					<img src="<?php bloginfo('template_directory') ?>/assets/images/icon-15.png">
 					編輯推薦
@@ -80,7 +80,7 @@
 					<img src="https://fakeimg.pl/312x112/aaa/">
 					<a class="txt" href="#">爲宣戰主權 灰貓竟然這樣對待電腦</a>
 				</div>
-			</div>
+			</div>-->
 		</div>
 
 	<?php endwhile; ?>
