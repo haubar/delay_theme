@@ -1,21 +1,13 @@
 jQuery(document).ready(function($) {
 	
-	// jQuery(".flatpickr").flatpickr({
-	// 	wrap: true,
-	// 	clickOpens: false,
-	// 	disableMobile: true,
-	// 	// allowInput: false,
-
-	// });
 	
 	//date picker
 	if(jQuery('.top-bar .date-plugin').hasClass('flatpickr')){
 		
 		jQuery(".flatpickr").flatpickr({
 			wrap: true,
-			// clickOpens: false,
-			disableMobile: true,
-			// allowInput: false,
+			clickOpens: false,
+			disableMobile: true
 
 		});
 	}
@@ -30,12 +22,24 @@ jQuery(document).ready(function($) {
 			$( "input[name=s]" ).val($( "#key_search" ).val());
 			$( "#searchform" ).submit();
 		}
+		if($( "input[name=date_search]" ).val()!==''){
+				$( "#key_search" ).val($( "input[name=date_search]" ).val());
+				$( "input[name=s]" ).val($( "#key_search" ).val());
+				$( "#searchform" ).submit();
+		}	
 	})
 
 	jQuery('.btn.search.mb-h').on('click', function(){
 		if($( "#key_search" ).val()!==''){
 			$( "input[name=s]" ).val($( "#key_search" ).val());
 			$( "#searchform" ).submit();
+		}
+		else
+		{
+			if($( "input[name=date_search]" ).val()!==''){
+				$( "#key_search" ).val($( "input[name=date_search]" ).val());
+				$( "#searchform" ).submit();
+			}	
 		}
 	})
 

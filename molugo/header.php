@@ -36,7 +36,7 @@
 		
 				<a href="#" title="btn date-plugin" class="btn date-plugin flatpickr">
 					
-					<input class="date" type="hidden" data-input>
+					<input class="date" name="date_search" type="hidden" data-input>
 					
 					<img src="<?php bloginfo('template_directory') ?>/assets/images/icon-1.png" alt="icon date-plugin" class="icon-calendar" data-toggle>
 					<div id="calendar-box"></div>
