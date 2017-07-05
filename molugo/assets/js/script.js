@@ -4,7 +4,7 @@ jQuery(document).ready(function($) {
 		wrap: true,
 		clickOpens: false,
 		disableMobile: true,
-		allowInput: false,
+		// allowInput: false,
 
 	});
 	
@@ -15,7 +15,7 @@ jQuery(document).ready(function($) {
 			wrap: true,
 			clickOpens: false,
 			disableMobile: true,
-			allowInput: false,
+			// allowInput: false,
 
 		});
 	}
