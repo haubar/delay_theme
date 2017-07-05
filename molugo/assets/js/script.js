@@ -1,5 +1,13 @@
 jQuery(document).ready(function($) {
+	
+	jQuery(".flatpickr").flatpickr({
+		wrap: true,
+		clickOpens: false,
+		disableMobile: true,
+		allowInput: false,
 
+	});
+	
 	//date picker
 	if(jQuery('.top-bar .date-plugin').hasClass('flatpickr')){
 		
@@ -7,7 +15,6 @@ jQuery(document).ready(function($) {
 			wrap: true,
 			clickOpens: false,
 			disableMobile: true,
-			dateFormat: "Y-m-d",
 			allowInput: false,
 
 		});
