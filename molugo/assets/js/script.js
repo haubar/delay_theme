@@ -1,19 +1,19 @@
 jQuery(document).ready(function($) {
 	
-	jQuery(".flatpickr").flatpickr({
-		wrap: true,
-		clickOpens: false,
-		disableMobile: true,
-		// allowInput: false,
+	// jQuery(".flatpickr").flatpickr({
+	// 	wrap: true,
+	// 	clickOpens: false,
+	// 	disableMobile: true,
+	// 	// allowInput: false,
 
-	});
+	// });
 	
 	//date picker
 	if(jQuery('.top-bar .date-plugin').hasClass('flatpickr')){
 		
 		jQuery(".flatpickr").flatpickr({
 			wrap: true,
-			clickOpens: false,
+			// clickOpens: false,
 			disableMobile: true,
 			// allowInput: false,
 
