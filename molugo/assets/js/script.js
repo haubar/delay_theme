@@ -6,7 +6,10 @@ jQuery(document).ready(function($) {
 		jQuery(".flatpickr").flatpickr({
 			wrap: true,
 			clickOpens: false,
-			disableMobile: true
+			disableMobile: true,
+			dateFormat: "Y-m-d",
+			allowInput: false,
+
 		});
 	}
 
